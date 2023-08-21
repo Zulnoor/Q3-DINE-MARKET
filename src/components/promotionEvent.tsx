@@ -34,7 +34,7 @@ const PromotionEvent = () => {
           <h2 className="text-4xl font-bold text-slate-50">GET 30% Off</h2>
           <h4>USE PROMO CODE</h4>
           <button className="bg-gray-700 px-3 md:px-8 tracking-widest text-lg md:text-xl py-2 w-fit block mx-auto mt-2 text-white font-sans font-medium rounded-md text-center">
-            DINEWEEKENDSAlE
+            DINEWEEKENDSALE
           </button>
         </div>
 
