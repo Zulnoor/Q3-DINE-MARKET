@@ -105,7 +105,7 @@ const Header = () => {
                           href="/cart"
                           className="rounded-full relative flex bg-gray-700 hover:bg-gray-800 hover:shadow-lg transition-shadow duration-75 p-3"
                         >
-                          <span className="absolute right-1 top-0 rounded-full bg-red-500 h-5 w-5 text-white text-sx text-center">
+                          <span className="absolute right-1 top-0 rounded-full bg-red-500 h-5 w-5 text-white text-xs text-center">
                             {cartValue}
                           </span>
                           <Image src={cartImg} alt="cart" />

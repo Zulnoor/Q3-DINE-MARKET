@@ -66,10 +66,10 @@ const FooterLabel = () =>{
                     <p className="text-gray-600 font-md">Copyright © {new Date().getFullYear()} Dine Market</p>
                 </div>
                 <div className="text-center">
-                    <p className="text-gray-600 font-md">Design by. <Link className="font-lg text-gray-950 font-bold  " href='https://nexu.netlify.app/' target="_blank"> Nexu Solutions</Link> </p>
+                    <p className="text-gray-600 font-md">Design by. <Link className="font-lg text-gray-950 font-bold  " href='' target="_blank"> Zulnoor Siddiqui</Link> </p>
                 </div>
                 <div className="text-end">
-                <p className="text-gray-600 font-md">Code by. <Link className="font-lg text-gray-950 font-bold  " href='https://github.com/MustafaGhouri' target="_blank">MustafaGhouri on GitHub</Link> </p>
+                <p className="text-gray-600 font-md">Code by. <Link className="font-lg text-gray-950 font-bold  " href='https://github.com/Zulnoor/Q3-DINE-MARKET' target="_blank">Zulnoor on GitHub</Link> </p>
                 </div>
             </div>
         </div>

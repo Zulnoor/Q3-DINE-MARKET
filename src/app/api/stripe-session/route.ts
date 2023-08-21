@@ -18,7 +18,7 @@ export async function POST(request: NextRequest) {
         payment_method_types: ["card"],
         billing_address_collection: "auto",
         shipping_options: [
-          { shipping_rate: "shr_1NQvFzEhtGsvhu7HnDKBjzQi" }, 
+          { shipping_rate: "shr_1NhJyUBnP1afQ48l2oqIBcMU" }, 
         ],
         invoice_creation: {
           enabled: true,
@@ -38,7 +38,7 @@ export async function POST(request: NextRequest) {
         phone_number_collection: {
           enabled: true,
         },
-        success_url: `${request.headers.get("origin")}/success`,
+        success_url: `${request.headers.get("origin")}/payment-success`,
         cancel_url: `${request.headers.get("origin")}/?canceled=true`,
       });
       return NextResponse.json({ session });

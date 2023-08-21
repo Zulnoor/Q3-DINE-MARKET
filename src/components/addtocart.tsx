@@ -30,7 +30,7 @@ const Addtocart = ({ productid = "", size = "", quantity = 1 }) => {
     }
     setloading(true)
     dispatch(cartActions.addToCart({ product:productid, quantity: quantity,size:size}));
-    toast.success("Cart Updated! 🛒✔", {
+    toast.success("ITEM ADDED TO 🛒✔", {
       position: "bottom-right",
       autoClose: 5000,
       hideProgressBar: false,

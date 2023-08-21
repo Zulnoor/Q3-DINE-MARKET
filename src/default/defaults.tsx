@@ -215,21 +215,21 @@ export const FooterData: {
   social: [
     {
       id: 1,
-      link: "https://www.instagram.com/nexu_solutions/",
+      link: "",
       icon: <FaInstagram/>,
       alt: "nexu_solutions",
     },
     {
       id: 2,
-      link: "https://github.com/MustafaGhouri",
+      link: "https://github.com/Zulnoor/Q3-DINE-MARKET",
       icon: <FaGithub/>,
-      alt: "MustafaGhouri",
+      alt: "Zulnoor",
     },
     {
       id: 3,
-      link: "https://www.linkedin.com/in/mustafa-ghouri-000149243/",
+      link: "https://www.linkedin.com/in/zulnoor-siddiqui-007a4322b/",
       icon: <FaLinkedinIn/>,
-      alt: "mustafa-ghouri-000149243",
+      alt: "zulnoor",
     },
   ],
   company: [
