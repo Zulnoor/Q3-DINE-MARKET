@@ -124,11 +124,11 @@ const Header = () => {
         <div
           className={
             mobileMenuOpen
-              ? "bg-white fixed h-fit inset-y-0 px-6 py-6 right-0 shadow-lg w-full z-10"
+              ? "bg-white fixed text-center inset-y-0 px-6 py-6 right-0 shadow-lg w-full z-10"
               : " w-full px-6 py-6   "
           }
         >
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between ">
             <Link href={"/"}>
               <Image
                 src={BrandLogo}
@@ -148,7 +148,7 @@ const Header = () => {
           </div>
 
           <div className={mobileMenuOpen ? "mt-6 flow-root" : "hidden"}>
-            <div className="-my-6 divide-y divide-gray-500/10">
+            <div className="-my-6 divide-y divide-gray-500/10 py-8">
               <div className="space-y-2 py-6">
                 {navigation.map((res, i) => {
                   return (
@@ -165,6 +165,17 @@ const Header = () => {
                   );
                 })}
               </div>
+              <div className=" ">
+                        <Link
+                          href="/cart"
+                          className="rounded-full relative flex w-16 h-14 m-auto bg-gray-700 hover:bg-gray-800 hover:shadow-lg transition-shadow duration-75 p-3"
+                        >
+                          <span className="absolute right-1 top-0 rounded-full bg-red-500 h-5 w-5 text-white text-xs text-center">
+                            {cartValue}
+                          </span>
+                          <Image src={cartImg} alt="cart" />
+                        </Link>
+                      </div>
             </div>
           </div>
         </div>
